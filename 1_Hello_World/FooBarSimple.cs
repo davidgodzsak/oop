@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _1_Hello_World
+namespace Ora1_Hello_World
 {
     public class FooBarSimple
     {

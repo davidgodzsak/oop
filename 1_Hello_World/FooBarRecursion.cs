@@ -1,7 +1,7 @@
 ﻿using System;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace _1_Hello_World
+namespace Ora1_Hello_World
 {
     public class FooBarRecursion
     {
