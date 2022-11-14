@@ -1,9 +1,8 @@
 ﻿using System;
 using Ora2_Csharp.Util;
-using Ora2_Csharp.Tamagotchi;
-using Ora2_Csharp.Tamagotchi.Domain;
+using Ora2_Csharp.Animal.Domain;
 
-namespace Ora2_Csharp.Tamagotchi.Animal
+namespace Ora2_Csharp.Animal
 {
     public class Cat : Animal, IFeline, IPlayful
     {

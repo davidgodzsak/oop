@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Ora2_Csharp.Tamagotchi.Animal
+namespace Ora2_Csharp.Animal
 {
     public interface ICanine : IAnimal
     {

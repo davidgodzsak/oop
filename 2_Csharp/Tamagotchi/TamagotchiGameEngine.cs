@@ -1,6 +1,6 @@
 ﻿using System;
-using Ora2_Csharp.Tamagotchi.Animal;
-using Ora2_Csharp.Tamagotchi.Domain;
+using Ora2_Csharp.Animal;
+using Ora2_Csharp.Animal.Domain;
 using Ora2_Csharp.Util;
 
 namespace Ora2_Csharp.Tamagotchi

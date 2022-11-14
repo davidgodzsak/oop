@@ -11,8 +11,10 @@
 
   <ItemGroup>
     <None Remove="Util\" />
+    <None Remove="Animals\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Util\" />
+    <Folder Include="Animals\" />
   </ItemGroup>
 </Project>
