@@ -30,7 +30,7 @@ namespace Ora2_Csharp.Animal
         public Position Move(Position delta)
         {
             position += delta;
-            energy -= (delta.x + delta.y) / 2;
+            energy -= (delta.X + delta.Y) / 2;
             return Position;
         }
         public float Feed(float food) => energy += food;

@@ -3,22 +3,14 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>Ora2_Csharp</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyName>2_Csharp</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Util\" />
-    <None Remove="Animals\" />
-    <None Remove="LINQ\" />
     <None Remove="Geometrics\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Util\" />
-    <Folder Include="Animals\" />
-    <Folder Include="LINQ\" />
     <Folder Include="Geometrics\" />
   </ItemGroup>
 </Project>

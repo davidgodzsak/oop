@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ora1_Hello_World", "1_Hello
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ora2_Csharp", "2_Csharp\Ora2_Csharp.csproj", "{03A3460D-1C8A-4958-97BD-B4EACF9E27F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ora3_HaziFeladat", "Ora3_HaziFeladat\Ora3_HaziFeladat.csproj", "{FFA32489-1649-46E1-BDA5-057BE3B6713C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{03A3460D-1C8A-4958-97BD-B4EACF9E27F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03A3460D-1C8A-4958-97BD-B4EACF9E27F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03A3460D-1C8A-4958-97BD-B4EACF9E27F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA32489-1649-46E1-BDA5-057BE3B6713C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA32489-1649-46E1-BDA5-057BE3B6713C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA32489-1649-46E1-BDA5-057BE3B6713C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA32489-1649-46E1-BDA5-057BE3B6713C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

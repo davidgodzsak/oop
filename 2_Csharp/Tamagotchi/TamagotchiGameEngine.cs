@@ -95,9 +95,9 @@ namespace Ora2_Csharp.Tamagotchi
                     switch (key)
                     {
                         case "U": direction = new Position(0, -1); break;
-                        case "D": direction = new Position(0, -1); break;
-                        case "L": direction = new Position(0, -1); break;
-                        case "R": direction = new Position(0, -1); break;
+                        case "D": direction = new Position(0, 1); break;
+                        case "L": direction = new Position(-1, 0); break;
+                        case "R": direction = new Position(1, 0); break;
                         default: direction = new Position(0, 0); break;
                     }
                     animal.Move(direction);
@@ -126,7 +126,7 @@ namespace Ora2_Csharp.Tamagotchi
                 animal.Neglected();
             }
 
-            Console.WriteLine($"Your pet is at ({animal.Position.x},{animal.Position.y}), currently {animal.Mood} and has energy of {animal.Energy}");
+            Console.WriteLine($"Your pet is at ({animal.Position.X},{animal.Position.Y}), currently {animal.Mood} and has energy of {animal.Energy}");
         }
     }
 }
