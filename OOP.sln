@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1703.8
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ora1_Hello_World", "1_Hello_World\Ora1_Hello_World.csproj", "{672E90BB-034E-4C16-9047-BC251860BFA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ora1_Hello_World", "1_Hello_World\Ora1_Hello_World.csproj", "{672E90BB-034E-4C16-9047-BC251860BFA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ora2_Csharp", "2_Csharp\Ora2_Csharp.csproj", "{03A3460D-1C8A-4958-97BD-B4EACF9E27F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ora2_Csharp", "2_Csharp\Ora2_Csharp.csproj", "{03A3460D-1C8A-4958-97BD-B4EACF9E27F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ora3_HaziFeladat", "Ora3_HaziFeladat\Ora3_HaziFeladat.csproj", "{FFA32489-1649-46E1-BDA5-057BE3B6713C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ora3_HaziFeladat", "Ora3_HaziFeladat\Ora3_HaziFeladat.csproj", "{FFA32489-1649-46E1-BDA5-057BE3B6713C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ora4_OOP", "Ora4_OOP\Ora4_OOP.csproj", "{AE17FB76-1F7E-4FD3-A318-546E68F1AF89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ora4_OOP", "Ora4_OOP\Ora4_OOP.csproj", "{AE17FB76-1F7E-4FD3-A318-546E68F1AF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ora5_Revit1", "Ora5_Revit1\Ora5_Revit1.csproj", "{2A64B30F-DD5A-449F-ABE4-3852A0506AF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AE17FB76-1F7E-4FD3-A318-546E68F1AF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE17FB76-1F7E-4FD3-A318-546E68F1AF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE17FB76-1F7E-4FD3-A318-546E68F1AF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A64B30F-DD5A-449F-ABE4-3852A0506AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A64B30F-DD5A-449F-ABE4-3852A0506AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A64B30F-DD5A-449F-ABE4-3852A0506AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A64B30F-DD5A-449F-ABE4-3852A0506AF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
