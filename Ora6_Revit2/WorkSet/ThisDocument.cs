@@ -42,15 +42,15 @@ namespace WorkSet
 			const string ARC_WORKSET_NAME = "ARC";
 			const string STR_WORKSET_NAME = "STR";
 			
-			var wrongWorksetElements = new FilteredElementCollector(Document)
-				.WhereElementIsElementType()
+			var wrongWorksetElements = new FilteredElementCollector(Document, Document.ActivewView.Id)
+				.WhereElementIsElementType() //.OfCategory(BuiltInCategory.OST_StructuralColumns) //.OfClass(typeof(FamilyInstance))
 				.Where(element =>
 				{
 					Parameter assemblyCode = element.get_Parameter(BuiltInParameter.UNIFORMAT_CODE);
 					Workset workset = Document.GetWorksetTable().GetWorkset(element.WorksetId);
 					
 					return assemblyCode.HasValue && assemblyCode.AsValueString().Contains(B1010) && workset.Name.Contains(ARC_WORKSET_NAME);
-	            })
+				})
 				.Select(element =>
 				{
 					Parameter assemblyCode = element.get_Parameter(BuiltInParameter.UNIFORMAT_CODE);
